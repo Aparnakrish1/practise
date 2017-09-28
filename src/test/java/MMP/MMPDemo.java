@@ -134,6 +134,7 @@ public class MMPDemo {
 		MMPEditProfile edit= new MMPEditProfile(this.driver);
 		boolean actual = edit.Editprofileblank();
 		Assert.assertTrue(actual);
+		System.out.println(actual);
 	} 
 	
 	@Test(description="ViewReports",priority=11)
